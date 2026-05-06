@@ -1,0 +1,53 @@
+{
+  "name": "vscode-universal-productivity-pack",
+  "displayName": "Universal Dev Productivity Pack (Stable, Stack-Agnostic)",
+  "description": "A minimal, low-maintenance VS Code extension pack focused on real developer productivity, AI assistance, code quality, and team collaboration across any tech stack.",
+  "version": "1.0.0",
+  "icon": "icon.png",
+  "license": "MIT",
+  "publisher": "imgildev",
+  "author": {
+    "name": "Manuel Gil",
+    "email": "support@imgil.dev",
+    "url": "https://imgil.dev/"
+  },
+  "sponsor": {
+    "url": "https://github.com/sponsors/ManuelGil"
+  },
+  "engines": {
+    "vscode": "^1.46.0"
+  },
+  "categories": [
+    "Extension Packs"
+  ],
+  "keywords": [
+    "vscode productivity",
+    "developer productivity",
+    "ai coding assistant",
+    "code quality",
+    "clean code",
+    "git tools",
+    "team collaboration",
+    "stack agnostic",
+    "universal dev tools",
+    "vscode extension pack"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ManuelGil/vscode-universal-productivity-pack.git"
+  },
+  "extensionPack": [
+    "eamodio.gitlens",
+    "usernamehw.errorlens",
+    "editorconfig.editorconfig",
+    "github.vscode-pull-request-github",
+    "github.copilot",
+    "github.copilot-chat",
+    "visualstudioexptteam.vscodeintellicode",
+    "sonarsource.sonarlint-vscode",
+    "streetsidesoftware.code-spell-checker",
+    "imgildev.vscode-code-log-plus",
+    "imgildev.vscode-code-context-plus",
+    "imgildev.vscode-json-flow"
+  ]
+}
