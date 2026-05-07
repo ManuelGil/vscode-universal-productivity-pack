@@ -4,94 +4,171 @@
 [![GitHub Repo stars](https://img.shields.io/github/stars/ManuelGil/vscode-universal-productivity-pack?style=for-the-badge&logo=github)](https://github.com/ManuelGil/vscode-universal-productivity-pack)
 [![GitHub license](https://img.shields.io/github/license/ManuelGil/vscode-universal-productivity-pack?style=for-the-badge&logo=github)](https://github.com/ManuelGil/vscode-universal-productivity-pack/blob/main/LICENSE)
 
-A minimal Visual Studio Code extension pack focused on developer productivity, AI-assisted coding, code quality, and team collaboration across any technology stack.
+A lightweight, stack-agnostic Visual Studio Code extension pack focused on productivity, code quality, debugging workflows, development context, structured data visualization, AI-assisted development, and team collaboration.
 
-## Why this extension pack
+Designed for developers and teams who want a clean, stable, and maintainable VS Code setup without unnecessary complexity.
 
-Most extension packs are built around specific languages or frameworks.
+## Why This Pack Exists
 
-This one is different.
+Most VS Code extension packs are built around:
 
-It provides a small, stable set of tools that improve everyday development without adding unnecessary complexity or long-term maintenance overhead.
+- specific languages
+- framework ecosystems
+- large collections of loosely related tools
 
-## Key Benefits
+This pack takes a different approach.
 
-- Works with any language or framework
-- Improves code quality and consistency
-- Enhances Git and code review workflows
-- Includes AI assistance for faster development
-- Designed for long-term stability and low maintenance
+It provides a carefully selected set of widely adopted extensions that improve everyday development workflows across any technology stack while keeping the environment lightweight, maintainable, and focused.
+
+Beyond productivity tooling, this pack also improves:
+
+- debugging workflows
+- contextual understanding of codebases
+- visibility into structured data
+- collaboration and code quality practices
+
+## Core Principles
+
+- Stack agnostic
+- Minimal and focused
+- Stable over time
+- Low maintenance
+- Team-friendly
+- No redundant tooling
+
+This pack intentionally avoids:
+
+- framework-specific dependencies
+- duplicate functionality
+- opinionated UI customizations
+- heavy or experimental extensions
 
 ## Included Extensions
 
-### Productivity and Git
+| Category            | Extension            | Purpose                                                                                            |
+| ------------------- | -------------------- | -------------------------------------------------------------------------------------------------- |
+| Git & Productivity  | GitLens              | Advanced Git insights, annotations, and history                                                    |
+| Git & Productivity  | Error Lens           | Inline visibility for errors and warnings                                                          |
+| Debugging           | CodeLog+             | Streamlines debugging by automating console log insertion and management across languages          |
+| Knowledge & Context | CodeContext+         | Connects documentation and code references to navigate development context directly from your code |
+| Data Visualization  | JSON Flow            | Interactive graph explorer for JSON, YAML, XML, CSV, and other structured data formats             |
+| Code Consistency    | EditorConfig         | Standardized editor behavior across teams                                                          |
+| Collaboration       | GitHub Pull Requests | Review and manage pull requests inside VS Code                                                     |
+| AI Assistance       | GitHub Copilot       | Context-aware AI code suggestions                                                                  |
+| AI Assistance       | GitHub Copilot Chat  | Interactive AI coding assistance                                                                   |
+| AI Assistance       | IntelliCode          | AI-assisted IntelliSense improvements                                                              |
+| Code Quality        | SonarLint            | Real-time bug and code smell detection                                                             |
+| Code Quality        | Code Spell Checker   | Improves naming and documentation consistency                                                      |
 
-- GitLens
-  Advanced Git insights including code history, authorship, and annotations.
+## What Makes This Pack Different
 
-- Error Lens
-  Inline error and warning visibility to reduce context switching.
+Unlike large extension bundles, this pack focuses on a small number of high-value tools that work well together.
 
-### Code Consistency
+It is designed to provide:
 
-- EditorConfig
-  Standardizes formatting across teams and environments.
+- a professional baseline development environment
+- better onboarding consistency for teams
+- improved debugging and development workflows
+- better visibility into code structure and data
+- AI-assisted productivity without excessive tooling
+- long-term maintainability with minimal overhead
 
-### Collaboration
+No themes, visual packs, or framework-specific assumptions included.
 
-- GitHub Pull Requests
-  Review and manage pull requests directly inside VS Code.
+## Who Is This For
 
-### AI Coding Assistance
+This pack is ideal for:
 
-- GitHub Copilot
-  Context-aware code suggestions.
-
-- GitHub Copilot Chat
-  Interactive coding assistance.
-
-- IntelliCode
-  AI-assisted IntelliSense improvements.
-
-### Code Quality
-
-- SonarLint
-  Real-time detection of bugs and code issues.
-
-- Code Spell Checker
-  Improves naming consistency and documentation quality.
-
-## What makes this pack different
-
-- No language-specific dependencies
-- No redundant or overlapping tools
-- No visual or theme-based extensions
-- Carefully selected, widely maintained extensions only
-
-## Use Cases
-
-- Multi-stack development teams
-- Developers setting up a clean environment
-- Organizations standardizing their VS Code setup
-- Developers looking for a minimal but powerful base configuration
+- Full-stack developers
+- Multi-stack engineering teams
+- Consultants working across multiple technologies
+- Developers working with large or evolving codebases
+- Organizations standardizing VS Code environments
+- Teams that value stability over constantly changing tooling
+- Developers who prefer clean and focused editor setups
 
 ## Lightweight and Maintainable
 
 This extension pack is intentionally small.
 
-It is designed to remain useful over time without frequent updates, making it suitable for teams that value stability over constant changes.
+Each extension was selected based on:
 
-## Optional Extensions
+- ecosystem maturity
+- long-term maintenance quality
+- practical day-to-day value
+- low overlap with other tools
+- cross-stack compatibility
 
-This pack is designed to be extended depending on your needs:
+The goal is to provide a setup that remains useful over time without requiring constant changes or maintenance.
 
-- language-specific tooling (JavaScript, Python, Java, etc.)
-- DevOps tools (Docker, Kubernetes)
-- API clients and testing tools
+## What This Pack Intentionally Excludes
 
-## Keywords
+Some commonly used extensions are intentionally not included.
 
-vscode productivity, vscode extension pack, developer productivity tools, ai coding assistant vscode, code quality vscode, git tools vscode, stack agnostic development, team productivity tools
+Project-specific tooling such as:
+
+- Prettier
+- ESLint
+- language servers
+- framework tooling
+
+should be configured according to the needs of each project or team.
+
+This keeps the pack flexible and avoids imposing unnecessary opinions across different stacks and workflows.
+
+## Optional Additions
+
+You can extend this pack depending on your workflow and technology stack.
+
+### Language-Specific Tooling
+
+- JavaScript / TypeScript
+- Python
+- Java
+- Go
+- Rust
+- C#
+
+### DevOps and Infrastructure
+
+- Docker
+- Kubernetes
+- Terraform
+
+### API and Testing Tools
+
+- REST clients
+- GraphQL tooling
+- Test runners
+
+## Installation
+
+### From the VS Code Marketplace
+
+1. Open the Extensions view in VS Code
+2. Search for:
+
+    ```text
+    <vscode-universal-productivity-pack>
+    ```
+
+3. Click **Install**
+
+### Command Line
+
+```bash
+code --install-extension <imgildev>.<vscode-universal-productivity-pack>
+```
+
+## Recommended Usage
+
+This pack works best as:
+
+- a baseline development environment
+- a starting point for onboarding
+- a foundation for multi-language workflows
+- a clean setup for AI-assisted development
+- a productivity-focused environment for modern software teams
 
 ## Contributing
 
